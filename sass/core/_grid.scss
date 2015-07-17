@@ -1,0 +1,187 @@
+﻿// breakpoints
+$bp-sm : 24em;
+$bp-md : 46.8em;
+$bp-lg : 50em;
+$bp-xl : 73em;
+
+@mixin bp($point) {
+  @if $point == xs {
+    @media only screen and (max-width: $bp-sm-1) { @content; }
+  }
+  @else if $point == sm {
+    @media only screen and (min-width: $bp-sm ) { @content; }
+  }
+  @else if $point == md {
+    @media only screen and (min-width: $bp-md) { @content; }
+  }
+  @else if $point == lg {
+    @media only screen and (min-width: $bp-lg) { @content; }
+  }
+  @else if $point == xl {
+  	@media only screen and (min-width: $bp-xl) { @content; }
+  }
+}
+
+
+$grid-columns: 12;
+$sm-container-width: 600px;
+$md-container-width: 732px;
+$lg-container-width: 960px;
+$xl-container-width: 1170px;
+$gutter: 1%;
+
+/* Mobile first queries */
+.container {
+	width: 100%;
+    margin-left: auto;
+ 	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+[class*='column-'] {
+	@include box-sizing(border-box);
+}
+
+@media (min-width: $bp-sm) {
+	.container {
+      width: $sm-container-width;
+      padding-left: 0;
+	  padding-right: 0;
+    }
+	
+	[class*='column-'] {
+	  float: left;
+	  margin-left: $gutter;
+	}
+	
+	// get the gutter in pixels
+	$gutter-px: calc($gutter - $sm-container-width);
+
+	.row{
+	  width:$sm-container-width + $gutter-px;
+	  margin-left:-$gutter;
+	  overflow:hidden;
+	  clear:both;
+	}
+	
+ 	@for $i from 1 through $grid-columns {
+ 	  	.column-#{$i} {
+    		width: 100% / $grid-columns * $i - $gutter;
+    	}
+ 	}
+
+ 	@for $i from 1 through $grid-columns {
+ 		.column-fixed-#{$i} {
+        	width: $sm-container-width / $grid-columns * $i - 6px; // TODO - Why is this 6px? Work it out.
+    	}
+ 	}
+}
+
+@media (min-width: $bp-md) {
+	.container {
+      width: $md-container-width;
+      padding-left: 0;
+	  padding-right: 0;
+    }
+	
+	[class*='column-'] {
+	  float: left;
+	  margin-left: $gutter;
+	}
+	
+	// get the gutter in pixels
+	$gutter-px: calc($gutter - $md-container-width);
+
+	.row{
+	  width:$md-container-width + $gutter-px;
+	  margin-left:-$gutter;
+	  overflow:hidden;
+	  clear:both;
+	}
+	
+ 	@for $i from 1 through $grid-columns {
+ 	  	.column-#{$i} {
+    		width: 100% / $grid-columns * $i - $gutter;
+    	}
+ 	}
+
+ 	@for $i from 1 through $grid-columns {
+ 		.column-fixed-#{$i} {
+        	width: $md-container-width / $grid-columns * $i - 6px; // TODO - Why is this 6px? Work it out.
+    	}
+ 	}
+}
+
+/* Larger than tablet */
+@media (min-width: $bp-lg) {
+
+	.container {
+      width: $lg-container-width;
+      padding-left: 0;
+	  padding-right: 0;
+    }
+	
+	[class*='column-'] {
+	  float: left;
+	  margin-left: $gutter;
+	}
+	
+	// get the gutter in pixels
+	$gutter-px: calc($gutter - $lg-container-width);
+
+	.row{
+	  width:$lg-container-width + $gutter-px;
+	  margin-left:-$gutter;
+	  overflow:hidden;
+	  clear:both;
+	}
+	
+ 	@for $i from 1 through $grid-columns {
+ 	  	.column-#{$i} {
+    		width: 100% / $grid-columns * $i - $gutter;
+    	}
+ 	}
+
+ 	@for $i from 1 through $grid-columns {
+ 		.column-fixed-#{$i} {
+        	width: $lg-container-width / $grid-columns * $i - 6px; // TODO - Why is this 6px? Work it out.
+    	}
+ 	}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: $bp-xl) {
+    .container {
+      width: $xl-container-width;
+      padding-left: 0;
+	  padding-right: 0;
+    }
+	
+	[class*='column-'] {
+	  float: left;
+	  margin-left: $gutter;
+	}
+	
+	// get the gutter in pixels
+	$gutter-px: calc($gutter - $xl-container-width);
+
+	.row{
+	  width:$xl-container-width + $gutter-px;
+	  margin-left:-$gutter;
+	  overflow:hidden;
+	  clear:both;
+	}
+	
+ 	@for $i from 1 through $grid-columns {
+ 	  	.column-#{$i} {
+    		width: 100% / $grid-columns * $i - $gutter;
+    	}
+ 	}
+
+ 	@for $i from 1 through $grid-columns {
+ 		.column-fixed-#{$i} {
+        	width: $xl-container-width / $grid-columns * $i - 6px; // TODO - Why is this 6px? Work it out.
+    	}
+ 	}
+}

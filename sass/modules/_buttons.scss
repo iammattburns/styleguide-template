@@ -1,0 +1,78 @@
+$color-button: $color-brand;
+$color-button-hover: lighten($color-brand, 10);
+
+.button {
+  -webkit-font-smoothing: antialiased;
+  background-color: $color-button;
+  border-radius: $border-radius;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $sans-serif-font;
+  font-size: $font-size;
+  line-height: 1;
+  padding: 0.75em 1em;
+  text-decoration: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+
+  &:hover,
+  &:focus {
+    background-color: $color-button-hover;
+    color: white;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+}
+
+.button-alternative {
+  background-color: $color-blue;
+  &:hover,
+  &:focus {
+    background-color: lighten($color-blue, 10);
+  }
+}
+
+.button-bold {
+  background-color: $color-black;
+  &:hover,
+  &:focus {
+    background-color: lighten($color-black, 10);
+  }
+}
+.button-disabled {
+  background-color: darken($color-light-gray, 10);
+  &:hover,
+  &:focus {
+    background-color: darken($color-light-gray, 10);
+  }
+}
+
+.button-invert {
+  background-color: transparent;
+  color: $color-text;
+  border: $border;
+  border-color: $color-medium-gray;
+  &:hover,
+  &:focus {
+    background-color: transparent;
+    color: lighten($color-text, 20);
+  }
+}
+
+.button-subtle {
+  background-color: lighten($color-green, 10);
+  &:hover,
+  &:focus {
+    background-color: lighten($color-green, 20);
+  }
+}
+
+.button-style-neutral {}
+.button-style-prominent {}
+

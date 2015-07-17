@@ -1,0 +1,1332 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+/* Mobile first queries */
+/* line 34, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+/* line 42, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+[class*='column-'] {
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@media (min-width: 24em) {
+  /* line 47, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .container {
+    width: 600px;
+    padding-left: 0;
+    padding-right: 0; }
+
+  /* line 53, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  [class*='column-'] {
+    float: left;
+    margin-left: 1%; }
+
+  /* line 61, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .row {
+    width: 600pxcalc($gutter - $sm-container-width);
+    margin-left: -1%;
+    overflow: hidden;
+    clear: both; }
+
+  /* line 69, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-1 {
+    width: 7.3333333333%; }
+
+  /* line 69, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-2 {
+    width: 15.6666666667%; }
+
+  /* line 69, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-3 {
+    width: 24%; }
+
+  /* line 69, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-4 {
+    width: 32.3333333333%; }
+
+  /* line 69, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-5 {
+    width: 40.6666666667%; }
+
+  /* line 69, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-6 {
+    width: 49%; }
+
+  /* line 69, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-7 {
+    width: 57.3333333333%; }
+
+  /* line 69, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-8 {
+    width: 65.6666666667%; }
+
+  /* line 69, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-9 {
+    width: 74%; }
+
+  /* line 69, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-10 {
+    width: 82.3333333333%; }
+
+  /* line 69, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-11 {
+    width: 90.6666666667%; }
+
+  /* line 69, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-12 {
+    width: 99%; }
+
+  /* line 75, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-1 {
+    width: 44px; }
+
+  /* line 75, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-2 {
+    width: 94px; }
+
+  /* line 75, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-3 {
+    width: 144px; }
+
+  /* line 75, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-4 {
+    width: 194px; }
+
+  /* line 75, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-5 {
+    width: 244px; }
+
+  /* line 75, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-6 {
+    width: 294px; }
+
+  /* line 75, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-7 {
+    width: 344px; }
+
+  /* line 75, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-8 {
+    width: 394px; }
+
+  /* line 75, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-9 {
+    width: 444px; }
+
+  /* line 75, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-10 {
+    width: 494px; }
+
+  /* line 75, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-11 {
+    width: 544px; }
+
+  /* line 75, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-12 {
+    width: 594px; }
+ }
+
+@media (min-width: 46.8em) {
+  /* line 82, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .container {
+    width: 732px;
+    padding-left: 0;
+    padding-right: 0; }
+
+  /* line 88, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  [class*='column-'] {
+    float: left;
+    margin-left: 1%; }
+
+  /* line 96, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .row {
+    width: 732pxcalc($gutter - $md-container-width);
+    margin-left: -1%;
+    overflow: hidden;
+    clear: both; }
+
+  /* line 104, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-1 {
+    width: 7.3333333333%; }
+
+  /* line 104, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-2 {
+    width: 15.6666666667%; }
+
+  /* line 104, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-3 {
+    width: 24%; }
+
+  /* line 104, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-4 {
+    width: 32.3333333333%; }
+
+  /* line 104, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-5 {
+    width: 40.6666666667%; }
+
+  /* line 104, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-6 {
+    width: 49%; }
+
+  /* line 104, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-7 {
+    width: 57.3333333333%; }
+
+  /* line 104, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-8 {
+    width: 65.6666666667%; }
+
+  /* line 104, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-9 {
+    width: 74%; }
+
+  /* line 104, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-10 {
+    width: 82.3333333333%; }
+
+  /* line 104, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-11 {
+    width: 90.6666666667%; }
+
+  /* line 104, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-12 {
+    width: 99%; }
+
+  /* line 110, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-1 {
+    width: 55px; }
+
+  /* line 110, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-2 {
+    width: 116px; }
+
+  /* line 110, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-3 {
+    width: 177px; }
+
+  /* line 110, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-4 {
+    width: 238px; }
+
+  /* line 110, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-5 {
+    width: 299px; }
+
+  /* line 110, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-6 {
+    width: 360px; }
+
+  /* line 110, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-7 {
+    width: 421px; }
+
+  /* line 110, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-8 {
+    width: 482px; }
+
+  /* line 110, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-9 {
+    width: 543px; }
+
+  /* line 110, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-10 {
+    width: 604px; }
+
+  /* line 110, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-11 {
+    width: 665px; }
+
+  /* line 110, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-12 {
+    width: 726px; }
+ }
+
+/* Larger than tablet */
+@media (min-width: 50em) {
+  /* line 119, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .container {
+    width: 960px;
+    padding-left: 0;
+    padding-right: 0; }
+
+  /* line 125, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  [class*='column-'] {
+    float: left;
+    margin-left: 1%; }
+
+  /* line 133, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .row {
+    width: 960pxcalc($gutter - $lg-container-width);
+    margin-left: -1%;
+    overflow: hidden;
+    clear: both; }
+
+  /* line 141, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-1 {
+    width: 7.3333333333%; }
+
+  /* line 141, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-2 {
+    width: 15.6666666667%; }
+
+  /* line 141, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-3 {
+    width: 24%; }
+
+  /* line 141, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-4 {
+    width: 32.3333333333%; }
+
+  /* line 141, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-5 {
+    width: 40.6666666667%; }
+
+  /* line 141, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-6 {
+    width: 49%; }
+
+  /* line 141, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-7 {
+    width: 57.3333333333%; }
+
+  /* line 141, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-8 {
+    width: 65.6666666667%; }
+
+  /* line 141, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-9 {
+    width: 74%; }
+
+  /* line 141, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-10 {
+    width: 82.3333333333%; }
+
+  /* line 141, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-11 {
+    width: 90.6666666667%; }
+
+  /* line 141, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-12 {
+    width: 99%; }
+
+  /* line 147, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-1 {
+    width: 74px; }
+
+  /* line 147, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-2 {
+    width: 154px; }
+
+  /* line 147, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-3 {
+    width: 234px; }
+
+  /* line 147, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-4 {
+    width: 314px; }
+
+  /* line 147, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-5 {
+    width: 394px; }
+
+  /* line 147, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-6 {
+    width: 474px; }
+
+  /* line 147, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-7 {
+    width: 554px; }
+
+  /* line 147, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-8 {
+    width: 634px; }
+
+  /* line 147, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-9 {
+    width: 714px; }
+
+  /* line 147, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-10 {
+    width: 794px; }
+
+  /* line 147, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-11 {
+    width: 874px; }
+
+  /* line 147, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-12 {
+    width: 954px; }
+ }
+
+/* Larger than Desktop HD */
+@media (min-width: 73em) {
+  /* line 155, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .container {
+    width: 1170px;
+    padding-left: 0;
+    padding-right: 0; }
+
+  /* line 161, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  [class*='column-'] {
+    float: left;
+    margin-left: 1%; }
+
+  /* line 169, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .row {
+    width: 1170pxcalc($gutter - $xl-container-width);
+    margin-left: -1%;
+    overflow: hidden;
+    clear: both; }
+
+  /* line 177, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-1 {
+    width: 7.3333333333%; }
+
+  /* line 177, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-2 {
+    width: 15.6666666667%; }
+
+  /* line 177, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-3 {
+    width: 24%; }
+
+  /* line 177, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-4 {
+    width: 32.3333333333%; }
+
+  /* line 177, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-5 {
+    width: 40.6666666667%; }
+
+  /* line 177, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-6 {
+    width: 49%; }
+
+  /* line 177, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-7 {
+    width: 57.3333333333%; }
+
+  /* line 177, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-8 {
+    width: 65.6666666667%; }
+
+  /* line 177, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-9 {
+    width: 74%; }
+
+  /* line 177, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-10 {
+    width: 82.3333333333%; }
+
+  /* line 177, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-11 {
+    width: 90.6666666667%; }
+
+  /* line 177, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-12 {
+    width: 99%; }
+
+  /* line 183, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-1 {
+    width: 91.5px; }
+
+  /* line 183, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-2 {
+    width: 189px; }
+
+  /* line 183, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-3 {
+    width: 286.5px; }
+
+  /* line 183, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-4 {
+    width: 384px; }
+
+  /* line 183, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-5 {
+    width: 481.5px; }
+
+  /* line 183, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-6 {
+    width: 579px; }
+
+  /* line 183, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-7 {
+    width: 676.5px; }
+
+  /* line 183, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-8 {
+    width: 774px; }
+
+  /* line 183, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-9 {
+    width: 871.5px; }
+
+  /* line 183, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-10 {
+    width: 969px; }
+
+  /* line 183, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-11 {
+    width: 1066.5px; }
+
+  /* line 183, d:/Development/templates/ResponsiveTemplate/sass/core/_grid.scss */
+  .column-fixed-12 {
+    width: 1164px; }
+ }
+
+/* line 1, d:/Development/templates/ResponsiveTemplate/sass/core/_base.scss */
+* {
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 5, d:/Development/templates/ResponsiveTemplate/sass/core/_base.scss */
+html, body {
+  background-color: white;
+  height: 100%; }
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 9, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+/* line 19, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 45, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 57, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+audio, canvas, progress, video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 67, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/* line 78, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+[hidden], template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 89, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+/* line 98, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+a:active, a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 109, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 118, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+b, strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 126, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 135, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 144, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 153, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 162, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 169, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* line 173, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 184, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 192, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 203, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 211, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 221, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 232, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 256, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+button, input, optgroup, select, textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 266, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 278, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+button, select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 293, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 303, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+button[disabled], html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 312, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 322, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 335, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 347, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 357, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 371, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 379, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 390, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 399, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 408, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 419, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 425, d:/Development/templates/ResponsiveTemplate/sass/core/_normalize.scss */
+td, th {
+  padding: 0; }
+
+/* line 22, d:/Development/templates/ResponsiveTemplate/sass/core/_typography.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+  color: #444444;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  line-height: 1.5; }
+
+/* line 35, d:/Development/templates/ResponsiveTemplate/sass/core/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  color: #0d0d0d;
+  font-weight: 400;
+  margin: 0; }
+
+/* line 42, d:/Development/templates/ResponsiveTemplate/sass/core/_typography.scss */
+h1 {
+  font-size: 2.6em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.2; }
+  @media only screen and (min-width: 50em) {
+    h1 {
+      font-size: 3.38em; } }
+
+/* line 51, d:/Development/templates/ResponsiveTemplate/sass/core/_typography.scss */
+h2 {
+  font-size: 2em; }
+  @media only screen and (min-width: 50em) {
+    h2 {
+      font-size: 2.6em; } }
+
+/* line 56, d:/Development/templates/ResponsiveTemplate/sass/core/_typography.scss */
+h3 {
+  font-size: 1.6em; }
+  @media only screen and (min-width: 50em) {
+    h3 {
+      font-size: 2.08em; } }
+
+/* line 61, d:/Development/templates/ResponsiveTemplate/sass/core/_typography.scss */
+h4 {
+  font-size: 1.3em; }
+  @media only screen and (min-width: 50em) {
+    h4 {
+      font-size: 1.69em; } }
+
+/* line 66, d:/Development/templates/ResponsiveTemplate/sass/core/_typography.scss */
+h5 {
+  font-size: 0.9em;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase; }
+  @media only screen and (min-width: 50em) {
+    h5 {
+      font-size: 1.17em; } }
+
+/* line 73, d:/Development/templates/ResponsiveTemplate/sass/core/_typography.scss */
+h6 {
+  font-size: 0.7em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase; }
+  @media only screen and (min-width: 50em) {
+    h6 {
+      font-size: 0.91em; } }
+
+/* line 85, d:/Development/templates/ResponsiveTemplate/sass/core/_typography.scss */
+a {
+  color: #cf1b41;
+  text-decoration: none; }
+  /* line 89, d:/Development/templates/ResponsiveTemplate/sass/core/_typography.scss */
+  a:hover {
+    color: #a21533; }
+  /* line 93, d:/Development/templates/ResponsiveTemplate/sass/core/_typography.scss */
+  a:active, a:focus {
+    color: #a21533;
+    outline: none; }
+
+/* line 101, d:/Development/templates/ResponsiveTemplate/sass/core/_typography.scss */
+cite {
+  color: #848484;
+  font-style: italic; }
+  /* line 105, d:/Development/templates/ResponsiveTemplate/sass/core/_typography.scss */
+  cite:before {
+    content: "\2015 \00A0"; }
+
+/* line 4, d:/Development/templates/ResponsiveTemplate/sass/modules/_buttons.scss */
+.button {
+  -webkit-font-smoothing: antialiased;
+  background-color: #cf1b41;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  line-height: 1;
+  padding: 0.75em 1em;
+  text-decoration: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  vertical-align: middle;
+  white-space: nowrap; }
+  /* line 22, d:/Development/templates/ResponsiveTemplate/sass/modules/_buttons.scss */
+  .button:hover, .button:focus {
+    background-color: #e5385c;
+    color: white; }
+  /* line 27, d:/Development/templates/ResponsiveTemplate/sass/modules/_buttons.scss */
+  .button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5; }
+
+/* line 33, d:/Development/templates/ResponsiveTemplate/sass/modules/_buttons.scss */
+.button-alternative {
+  background-color: #399fd3; }
+  /* line 36, d:/Development/templates/ResponsiveTemplate/sass/modules/_buttons.scss */
+  .button-alternative:hover, .button-alternative:focus {
+    background-color: #63b3dc; }
+
+/* line 41, d:/Development/templates/ResponsiveTemplate/sass/modules/_buttons.scss */
+.button-bold {
+  background-color: #0d0d0d; }
+  /* line 44, d:/Development/templates/ResponsiveTemplate/sass/modules/_buttons.scss */
+  .button-bold:hover, .button-bold:focus {
+    background-color: #262626; }
+
+/* line 48, d:/Development/templates/ResponsiveTemplate/sass/modules/_buttons.scss */
+.button-disabled {
+  background-color: #e7dada; }
+  /* line 51, d:/Development/templates/ResponsiveTemplate/sass/modules/_buttons.scss */
+  .button-disabled:hover, .button-disabled:focus {
+    background-color: #e7dada; }
+
+/* line 56, d:/Development/templates/ResponsiveTemplate/sass/modules/_buttons.scss */
+.button-invert {
+  background-color: transparent;
+  color: #444444;
+  border: 1px solid #FBF9F9;
+  border-color: #999595; }
+  /* line 62, d:/Development/templates/ResponsiveTemplate/sass/modules/_buttons.scss */
+  .button-invert:hover, .button-invert:focus {
+    background-color: transparent;
+    color: #777777; }
+
+/* line 68, d:/Development/templates/ResponsiveTemplate/sass/modules/_buttons.scss */
+.button-subtle {
+  background-color: #00d49a; }
+  /* line 71, d:/Development/templates/ResponsiveTemplate/sass/modules/_buttons.scss */
+  .button-subtle:hover, .button-subtle:focus {
+    background-color: #08ffbb; }
+
+/* line 11, d:/Development/templates/ResponsiveTemplate/sass/modules/_forms.scss */
+fieldset {
+  background: #FBF9F9;
+  border: 1px solid #FBF9F9;
+  padding: 20px 2%; }
+
+/* line 19, d:/Development/templates/ResponsiveTemplate/sass/modules/_forms.scss */
+input, label, select {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em; }
+
+/* line 25, d:/Development/templates/ResponsiveTemplate/sass/modules/_forms.scss */
+label {
+  font-weight: bold; }
+  /* line 27, d:/Development/templates/ResponsiveTemplate/sass/modules/_forms.scss */
+  label.required:after {
+    content: "*"; }
+  /* line 30, d:/Development/templates/ResponsiveTemplate/sass/modules/_forms.scss */
+  label abbr {
+    display: none; }
+
+/* line 39, d:/Development/templates/ResponsiveTemplate/sass/modules/_forms.scss */
+textarea, input[type='text'], input[type='password'], select, select[multiple=multiple] {
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #e7dada;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  padding: 10px 10px;
+  width: 100%; }
+  /* line 52, d:/Development/templates/ResponsiveTemplate/sass/modules/_forms.scss */
+  textarea:hover, input[type='text']:hover, input[type='password']:hover, select:hover, select[multiple=multiple]:hover {
+    border-color: #d2bcbc; }
+  /* line 56, d:/Development/templates/ResponsiveTemplate/sass/modules/_forms.scss */
+  textarea:focus, input[type='text']:focus, input[type='password']:focus, select:focus, select[multiple=multiple]:focus {
+    border-color: #399fd3;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(44, 146, 198, 0.7);
+    outline: none; }
+
+/* line 63, d:/Development/templates/ResponsiveTemplate/sass/modules/_forms.scss */
+textarea {
+  resize: vertical; }
+
+/* line 72, d:/Development/templates/ResponsiveTemplate/sass/modules/_forms.scss */
+input[type="checkbox"], input[type="radio"] {
+  display: inline; }
+
+/* line 76, d:/Development/templates/ResponsiveTemplate/sass/modules/_forms.scss */
+input[type="file"] {
+  width: 100%; }
+
+/* line 2, d:/Development/templates/ResponsiveTemplate/sass/modules/_lists.scss */
+ul, ol {
+  margin: 0 0 0 1.3em;
+  padding: 0; }
+
+/* line 7, d:/Development/templates/ResponsiveTemplate/sass/modules/_lists.scss */
+li {
+  padding: 0 0 0 0.5em;
+  margin: 0; }
+
+/* line 13, d:/Development/templates/ResponsiveTemplate/sass/modules/_lists.scss */
+dl dt {
+  font-weight: bold; }
+/* line 16, d:/Development/templates/ResponsiveTemplate/sass/modules/_lists.scss */
+dl dd {
+  margin: 0; }
+
+/* line 1, d:/Development/templates/ResponsiveTemplate/sass/modules/_tables.scss */
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%; }
+
+/* line 7, d:/Development/templates/ResponsiveTemplate/sass/modules/_tables.scss */
+th {
+  border-bottom: 1px solid #dccbcb;
+  font-weight: bold;
+  text-align: left; }
+
+/* line 13, d:/Development/templates/ResponsiveTemplate/sass/modules/_tables.scss */
+td {
+  border-bottom: 1px solid #FBF9F9; }
+
+/* line 19, d:/Development/templates/ResponsiveTemplate/sass/modules/_tables.scss */
+tr, td, th {
+  vertical-align: middle; }
+
+/* line 1, d:/Development/templates/ResponsiveTemplate/sass/partials/_header.scss */
+#header {
+  padding: 50px 0; }
+
+/* line 1, d:/Development/templates/ResponsiveTemplate/sass/partials/_navigation.scss */
+nav {
+  display: inline-block;
+  position: absolute;
+  right: 0; }
+
+/* line 7, d:/Development/templates/ResponsiveTemplate/sass/partials/_navigation.scss */
+nav ul {
+  display: inline-block;
+  margin: 15px 0 0 0;
+  vertical-align: top; }
+
+/* line 13, d:/Development/templates/ResponsiveTemplate/sass/partials/_navigation.scss */
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+  border-bottom: 2px transparent solid;
+  height: 35px;
+  -webkit-transition: border-bottom 0.3s ease-in-out;
+  transition: border-bottom 0.3s ease-in-out; }
+
+/* line 25, d:/Development/templates/ResponsiveTemplate/sass/partials/_navigation.scss */
+nav li:hover {
+  border-bottom: 2px #fff solid; }
+
+/* line 29, d:/Development/templates/ResponsiveTemplate/sass/partials/_navigation.scss */
+nav a {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 300;
+  color: #fff;
+  font-size: 13px; }
+
+/* line 41, d:/Development/templates/ResponsiveTemplate/sass/partials/_navigation.scss */
+nav .social-links {
+  display: inline-block;
+  height: 30px;
+  margin: 10px 20px 0 10px; }
+
+/* line 47, d:/Development/templates/ResponsiveTemplate/sass/partials/_navigation.scss */
+nav .social-link {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin: 0 5px 0 0;
+  padding: 0; }
+
+/* line 55, d:/Development/templates/ResponsiveTemplate/sass/partials/_navigation.scss */
+nav .twitter {
+  background: url(/Content/images/social-icons-small.png) no-repeat; }
+
+/* line 59, d:/Development/templates/ResponsiveTemplate/sass/partials/_navigation.scss */
+nav .linked-in {
+  background: url(/Content/images/social-icons-small.png) no-repeat -31px 0; }
+
+/* line 63, d:/Development/templates/ResponsiveTemplate/sass/partials/_navigation.scss */
+nav .google-plus {
+  background: url(/Content/images/social-icons-small.png) no-repeat -62px 0; }
+
+/* line 67, d:/Development/templates/ResponsiveTemplate/sass/partials/_navigation.scss */
+nav .facebook {
+  background: url(/Content/images/social-icons-small.png) no-repeat -93px 0; }
+
+/* line 1, d:/Development/templates/ResponsiveTemplate/sass/partials/_hero.scss */
+.hero-container {
+  background: url(../images/hero.jpg) no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  z-index: 1; }
+
+/* line 1, d:/Development/templates/ResponsiveTemplate/sass/pages/_home.scss */
+#intro {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  height: 460px;
+  padding: 100px 0;
+  text-align: center; }
+
+/* line 10, d:/Development/templates/ResponsiveTemplate/sass/pages/_home.scss */
+#intro p {
+  width: 450px;
+  margin: 0 auto; }
+
+/* line 15, d:/Development/templates/ResponsiveTemplate/sass/pages/_home.scss */
+#cta {
+  background: #ED2F35;
+  height: 220px;
+  padding: 50px 0;
+  text-align: center;
+  color: #fff; }
+
+/* line 23, d:/Development/templates/ResponsiveTemplate/sass/pages/_home.scss */
+#cta p {
+  margin: 0 auto;
+  font-size: 36px; }
+
+/* line 28, d:/Development/templates/ResponsiveTemplate/sass/pages/_home.scss */
+#cta p.cta-title {
+  font-size: 20px;
+  margin-bottom: 20px; }
+
+/* line 33, d:/Development/templates/ResponsiveTemplate/sass/pages/_home.scss */
+#services {
+  background: #EBEBEB;
+  padding: 100px 0; }
+
+/* line 1, d:/Development/templates/ResponsiveTemplate/sass/pages/_style-guide.scss */
+.section {
+  float: left;
+  margin: 50px 0 0;
+  width: 100%; }
+
+/* line 7, d:/Development/templates/ResponsiveTemplate/sass/pages/_style-guide.scss */
+.pattern {
+  float: left;
+  margin: 0 0 3em;
+  width: 100%;
+  border: 1px solid #E5E5E5;
+  border-radius: 3px; }
+
+/* line 15, d:/Development/templates/ResponsiveTemplate/sass/pages/_style-guide.scss */
+.pattern-detail {
+  color: #004B6A;
+  background-color: #FBF9F9;
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.4);
+  padding: 0.5em 10px;
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  border-bottom: 1px solid rgba(229, 229, 229, 0.5);
+  border-color: rgba(229, 229, 229, 0.5);
+  border-radius: 3px 3px 0px 0px; }
+
+/* line 28, d:/Development/templates/ResponsiveTemplate/sass/pages/_style-guide.scss */
+.pattern-example {
+  padding: 10px;
+  width: auto;
+  overflow: hidden; }
+
+/* line 34, d:/Development/templates/ResponsiveTemplate/sass/pages/_style-guide.scss */
+.column {
+  background: #E5E5E5;
+  color: #333;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-transform: uppercase; }
+
+/* Colours */
+/* Primary */
+/* line 49, d:/Development/templates/ResponsiveTemplate/sass/pages/_style-guide.scss */
+.swatch {
+  width: 100%;
+  height: 100px; }
+
+/* line 54, d:/Development/templates/ResponsiveTemplate/sass/pages/_style-guide.scss */
+.color-red {
+  background: #cf1b41; }
+
+/* line 58, d:/Development/templates/ResponsiveTemplate/sass/pages/_style-guide.scss */
+.color-blue {
+  background: #399fd3; }
+
+/* line 62, d:/Development/templates/ResponsiveTemplate/sass/pages/_style-guide.scss */
+.color-yellow {
+  background: #fedd44; }
+
+/* Secondary */
+/* line 68, d:/Development/templates/ResponsiveTemplate/sass/pages/_style-guide.scss */
+.color-orange {
+  background: #e87d2b; }
+
+/* line 72, d:/Development/templates/ResponsiveTemplate/sass/pages/_style-guide.scss */
+.color-purple {
+  background: #69579C; }
+
+/* line 76, d:/Development/templates/ResponsiveTemplate/sass/pages/_style-guide.scss */
+.color-green {
+  background: #00a175; }
+
+/* Neutral */
+/* line 82, d:/Development/templates/ResponsiveTemplate/sass/pages/_style-guide.scss */
+.color-black {
+  background: #0d0d0d; }
+
+/* line 86, d:/Development/templates/ResponsiveTemplate/sass/pages/_style-guide.scss */
+.color-white {
+  background: white; }
+
+/* line 90, d:/Development/templates/ResponsiveTemplate/sass/pages/_style-guide.scss */
+.color-gray {
+  background: #6D6E71; }
+
+/* line 94, d:/Development/templates/ResponsiveTemplate/sass/pages/_style-guide.scss */
+.color-light-gray {
+  background: #FBF9F9; }
+
+/* line 98, d:/Development/templates/ResponsiveTemplate/sass/pages/_style-guide.scss */
+.color-medium-gray {
+  background: #999595; }
+
+/* line 102, d:/Development/templates/ResponsiveTemplate/sass/pages/_style-guide.scss */
+.color-dark-gray {
+  background: #444444; }
+
+/* Functional Colours */
+/* line 108, d:/Development/templates/ResponsiveTemplate/sass/pages/_style-guide.scss */
+.color-background {
+  background: white; }
+
+/* line 112, d:/Development/templates/ResponsiveTemplate/sass/pages/_style-guide.scss */
+.color-brand {
+  background: #cf1b41; }
+
+/* line 116, d:/Development/templates/ResponsiveTemplate/sass/pages/_style-guide.scss */
+.color-header {
+  background: #0d0d0d; }
+
+/* line 120, d:/Development/templates/ResponsiveTemplate/sass/pages/_style-guide.scss */
+.color-accent {
+  background: #cf1b41; }

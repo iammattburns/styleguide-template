@@ -1,0 +1,28 @@
+// Primary Colors
+$color-red: #cf1b41;
+$color-blue: #399fd3;
+$color-yellow: #fedd44;
+
+// Secondary Colors
+$color-orange: #e87d2b;
+$color-purple: #69579C;
+$color-green: #00a175;
+
+// Neutral Colors
+$color-black: lighten(black, 5%);
+$color-white: white;
+$color-gray: #6D6E71;
+$color-light-gray: #FBF9F9;
+$color-medium-gray: #999595;
+$color-dark-gray: #444444;
+
+// Functional Colors
+$color-background: $color-white;
+$color-brand: $color-red;
+$color-header: $color-black;
+$color-accent: $color-red;
+
+// Borders
+$border: 1px solid $color-light-gray;
+$border-color: $color-light-gray;
+$border-radius: 5px;

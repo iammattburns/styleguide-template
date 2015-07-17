@@ -1,0 +1,9 @@
+.hero-container
+{
+	background: url(../images/hero.jpg) no-repeat center center;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	z-index: 1;
+}
